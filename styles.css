@@ -49,6 +49,9 @@ a{
     background-color: whitesmoke;
     padding: 20px 40px 20px 20px;
 }
+.navi a{
+    padding-right: 20px;
+}
 
 .container{
     border-top: 1px solid grey;
@@ -71,6 +74,9 @@ a{
     display: grid;
     max-width: 1200px;
     background-color: white;
+}
+form{
+    display: grid;
 }
 /* CTA SECTION */
 .saved-events{
