@@ -34,7 +34,6 @@
               <button type="submit">+ Add Event</button>
            </form>
         </div>
-    </main>
     <!-- CTA SECTION -->
      <h2>Upcoming Events</h2>
      <div>
@@ -45,9 +44,12 @@
             <option value="Active">Active</option>
             <option value="Planning">Planning</option>
         </select>
-        <button onclick="editEvent(0)">Edit</button>
-        <button onclick="deleteEvent(0)">Delete</button>
+        <div>
+            <button onclick="editEvent(0)">Edit</button>
+            <button onclick="deleteEvent(0)">Delete</button>
+        </div>
      </div>
-     <button>View All Events ></button>
+     <button id="viewallbtn">View All Events></button>
+    </main>
 </body>
 </html>
