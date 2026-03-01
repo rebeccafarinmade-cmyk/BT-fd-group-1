@@ -88,8 +88,8 @@ input{
 }
 /* CTA SECTION */
 .saved-events{
-    margin: 5px 30px;
-    padding: 20px 10px;
+    margin: 20px 30px;
+    padding: 10px 10px;
     max-width: 300px;
     border: 1px solid black;
     background-color: white;
