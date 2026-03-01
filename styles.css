@@ -47,7 +47,7 @@ a{
 /* NAVIGATION */
 .navi {
     margin-right: 15px;
-    padding-right: 20px;
+    padding: 10px 20px;
     margin-bottom: 20px;
     margin-top: 20px;
     text-align: right;
@@ -56,7 +56,7 @@ a{
 
 .container{
     border-top: 1px solid grey;
-    background-color: lightblue;
+    background-color: rgb(228, 235, 237);
 }
 /* HERO SECTION */
 .heading-1{
