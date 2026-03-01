@@ -48,8 +48,7 @@ a{
 .navi {
     text-align: right;
     background-color: antiquewhite;
-    margin: 20px 20px;
-    padding-right: 40px;
+    padding: 20px 40px 20px 20px;
 }
 
 .container{
