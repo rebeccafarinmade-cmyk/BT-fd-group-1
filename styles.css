@@ -71,12 +71,12 @@ a{
     border: 2px solid black;
     padding: 10px 15px;
     margin: 5px 30px;
-    display: grid;
-    max-width: 1200px;
+    max-width: 50%;
     background-color: white;
 }
 form{
-    display: grid;
+    display: flex;
+    gap: 15px;
 }
 /* CTA SECTION */
 .saved-events{
