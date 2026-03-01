@@ -46,12 +46,9 @@ a{
 
 /* NAVIGATION */
 .navi{
-    margin-right: 10px;
+    margin-right: 200px;
     padding-left: 20px;
     margin-bottom: 20px;
-}
-.navi a{
-    text-align: center;
 }
 
 .container{
@@ -75,7 +72,7 @@ a{
     max-width: 1200px;
 }
 /* CTA SECTION */
-.saved-event{
+.saved-events{
     margin: 5px 20px;
     padding: 10px 10px;
     max-width: 300px;
