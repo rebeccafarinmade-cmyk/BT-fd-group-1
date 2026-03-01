@@ -46,7 +46,7 @@ a{
 /* NAVIGATION */
 .navi {
     text-align: right;
-    background-color: whitesmoke;
+    background-color: white;
     padding: 20px 40px 20px 20px;
 }
 .navi a{
@@ -54,7 +54,6 @@ a{
 }
 
 .container{
-    border-top: 1px solid grey;
     background-color: whitesmoke;
 }
 /* HERO SECTION */
