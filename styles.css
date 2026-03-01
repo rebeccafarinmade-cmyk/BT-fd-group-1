@@ -47,7 +47,7 @@ a{
 /* NAVIGATION */
 .navi{
     margin-right: 20px;
-    margin-left: 200px;
+    margin-left: 1000px;
     padding-left: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -79,4 +79,7 @@ a{
     padding: 10px 10px;
     max-width: 300px;
     border: 2px solid grey;
+}
+.cta-heading{
+    padding-left: 20px;
 }
