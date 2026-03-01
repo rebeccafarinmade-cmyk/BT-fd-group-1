@@ -17,7 +17,7 @@
     margin: 0;
     font-family: "inter" sans-serif;
     box-sizing: content-box;
-    max-width: 1200px;
+    max-width: 1600px;
 }
 h1, h2, h3, h4 {
     line-height: 1.5;
@@ -54,7 +54,7 @@ a{
 }
 
 .container{
-    border-top: 2px solid black;
+    border-top: 1px black;
 }
 /* HERO SECTION */
 .heading-1{
