@@ -67,17 +67,20 @@ a{
     padding-bottom: 15px;
 }
 /* FEATURES SECTION */
-.form-input{
+.form{
     border: 2px solid black;
     padding: 10px 15px;
     margin: 5px 30px;
     max-width: 50%;
     background-color: white;
 }
-form{
+.form-input{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 15px
+}
+form{
+    
 }
 /* CTA SECTION */
 .saved-events{
