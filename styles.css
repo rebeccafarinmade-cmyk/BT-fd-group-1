@@ -79,6 +79,10 @@ a{
     gap: 15px;
     flex-wrap: wrap;
 }
+input{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 /* CTA SECTION */
 .saved-events{
     margin: 5px 30px;
