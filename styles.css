@@ -45,13 +45,13 @@ a{
 }
 
 /* NAVIGATION */
-.navi{
+nav{
     margin-right: 5px;
     padding-left: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
-.navi a{
+nav a{
     text-align: right;
 }
 
