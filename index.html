@@ -26,7 +26,7 @@
               <label for="name">Event Name</label>
               <input id="name" type="text" name="event-name" placeholder="Event Name">
               <label for="date">Date</label>
-              <input id="date" type="text" name="event-date" placeholder="July 15 2026">
+              <input id="date" type="text" name="event-date" placeholder="July 15, 2026">
               <label for="location">location</label>
               <input id="location" type="text" name="event-location" placeholder="Location">
               <label for="description">Description</label>
@@ -35,5 +35,19 @@
            </form>
         </div>
     </main>
+    <!-- CTA SECTION -->
+     <h2>Upcoming Events</h2>
+     <div>
+        <h3>Marketing Workshop</h3>
+        <p>July 15, 2026</p>
+        <p>Lagos State, Nigeria</p>
+        <select name="eventstatus" id="eventstatus">
+            <option value="Active">Active</option>
+            <option value="Planning">Planning</option>
+        </select>
+        <button onclick="editEvent(0)">Edit</button>
+        <button onclick="deleteEvent(0)">Delete</button>
+     </div>
+     <button>View All Events ></button>
 </body>
 </html>
