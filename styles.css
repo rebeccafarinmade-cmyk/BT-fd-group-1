@@ -73,6 +73,9 @@ a{
     max-width: 1200px;
     background-color: white;
 }
+.features-heading{
+    padding-bottom: 20px;
+}
 .form-input{
     display: flex;
     gap: 15px;
