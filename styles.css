@@ -46,13 +46,13 @@ a{
 /* NAVIGATION */
 .navi {
     text-align: right;
-    background-color: antiquewhite;
+    background-color: whitesmoke;
     padding: 20px 40px 20px 20px;
 }
 
 .container{
     border-top: 1px solid grey;
-    background-color: rgb(228, 235, 237);
+    background-color: rgb(254, 255, 255);
 }
 /* HERO SECTION */
 .heading-1{
