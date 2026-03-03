@@ -20,6 +20,16 @@
       <a href="">Contacts</a>
      </nav>
      <div class="container">
+        <button id="menu-btn">=</button>
+        <div id="sidebar">
+          <h2>Dashboard</h2>
+          <ul>
+            <li>Home</li>
+            <li>Add Events</li>
+            <li>All Events</li>
+            <li>Settings</li>
+          </ul>
+        </div>
         <header>    
             <!-- HERO SECTION -->
             <h1 class="heading-1">Event Management Dashboard</h1>
@@ -49,9 +59,9 @@
                 <h3>Marketing Workshop</h3>
                 <p class="cta-paragraph-1">🗓️ July 15, 2026</p>
                 <p class="cta-paragraph-2"><img src="images/icons8-location.gif" alt="location"> Lagos State, Nigeria</p>
-                <select name="event-status" id="highlight">
-                  <option class="highlight-primary" value="Active">Active</option>
-                  <option class="highlight-secondary" value="Planning">Planning</option>
+                <select name="event-status" id="status">
+                  <option class="green" value="Active">Active</option>
+                  <option class="peru" value="Planning">Planning</option>
                 </select>
                 <div>
                   <button class="btn btn-secondary" onclick="editEvent(0)">Edit<button>
@@ -60,6 +70,9 @@
               </div>
               <button class="btn btn-primary" id="view-all-btn">View all Events></button>
         </main>
+        <footer>
+
+        </footer>
      </div>
 </body>
 </html>

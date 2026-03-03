@@ -108,11 +108,17 @@ input{
 .cta-paragraph-2 img{
     max-width: 25px;
 }
-#highlight{
+#status{
     margin-bottom: 15px;
     margin-top: 15px;
     padding: 15px 10px;
     font-size: 16px;
+}
+.green{
+    background-color: green;
+}
+.peru{
+    background-color: peru;
 }
 #view-all-btn{
     text-align: center;
@@ -140,9 +146,3 @@ input{
     color: white;
 }
 
-.highlight-primary{
-    background-color: green;
-}
-.highlight-secondary{
-    background-color: peru;
-}
