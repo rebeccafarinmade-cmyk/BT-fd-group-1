@@ -99,4 +99,24 @@ input{
 }
 #view-all-btn{
     text-align: center;
+    padding-left: 150px;
+}
+
+/* COMPONENTS */
+.btn{
+    padding: 20px 5px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.btn-primary:hover, .btn-primary:active{
+    background-color: purple;
+}
+.btn-primary:link, .btn-primary:visited{
+    background-clip: blue;
+}
+.btn-secondary:hover, .btn-secondary:active{
+    background-color: orangered;
+}
+.btn-secondary:link, .btn-secondary:visited{
+    background-color: red;
 }
