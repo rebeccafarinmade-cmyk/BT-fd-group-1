@@ -52,6 +52,12 @@ a{
 .navi a{
     padding-right: 20px;
 }
+.sidebar li{
+    padding: 10px 30px;
+}
+.sidebar h2{
+    padding: 20px 40px;
+}
 
 .container{
     background-color: whitesmoke;
@@ -145,4 +151,6 @@ input{
     background-color: red;
     color: white;
 }
-
+.menu-btn{
+    background-color: blue;
+}
