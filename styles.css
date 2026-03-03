@@ -108,9 +108,11 @@ input{
 .cta-paragraph-2 img{
     max-width: 25px;
 }
-#event-status{
+. highlight{
     margin-bottom: 15px;
     margin-top: 15px;
+    padding: 15px 10px;
+    font-size: 16px;
 }
 #view-all-btn{
     text-align: center;
@@ -136,4 +138,11 @@ input{
 .btn-secondary, .btn-secondary:link, .btn-secondary:visited{
     background-color: red;
     color: white;
+}
+
+.highlight-primary{
+    background-color: green;
+}
+.highlight-secondary{
+    background-color: orange;
 }
