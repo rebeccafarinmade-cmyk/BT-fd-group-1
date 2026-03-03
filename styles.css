@@ -52,10 +52,10 @@ a{
 .navi a{
     padding-right: 20px;
 }
-.sidebar li{
+#sidebar li{
     padding: 10px 30px;
 }
-.sidebar h2{
+#sidebar h2{
     padding: 20px 40px;
 }
 
@@ -151,6 +151,6 @@ input{
     background-color: red;
     color: white;
 }
-.menu-btn{
+#menubtn{
     background-color: blue;
 }
