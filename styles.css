@@ -99,7 +99,7 @@ input{
 }
 #view-all-btn{
     text-align: center;
-    padding-left: 150px;
+    margin-left: 150px;
 }
 
 /* COMPONENTS */
@@ -111,7 +111,7 @@ input{
 .btn-primary:hover, .btn-primary:active{
     background-color: purple;
 }
-.btn-primary:link, .btn-primary:visited{
+.btn-primary, .btn-primary:link, .btn-primary:visited{
     background-clip: blue;
 }
 .btn-secondary:hover, .btn-secondary:active{
