@@ -176,7 +176,13 @@ body{
   background-color: purple;
 }
 .highlight-1:link, .highlight-1:visited{
-  color: plum;
+  color: blueviolet;
+}
+.highlight-2.hover, .highlight-2:active{
+  background-color: purple;
+}
+.highlight-2:link, .highlight-2:visited{
+  color: blueviolet;
 }
 .active{
   background-color: green;
