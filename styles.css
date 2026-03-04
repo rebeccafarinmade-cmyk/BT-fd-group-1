@@ -141,7 +141,7 @@ body{
 /* COMPONENT */
 .btn{
   padding: 5px 5px;
-  margin: 5px 2px 20px 90px;
+  margin: 10px 2px 20px 90px;
   font-size: 20px;
 }
 .highlight{
