@@ -44,6 +44,7 @@ h4{
 }
 p{
     font-size: 24px;
+    font-weight: 400;
 }
 a{
     font-size: 16px;
@@ -102,7 +103,7 @@ body{
 .heading-1{
     text-align: center;
     padding: 10px 10px 50px 50px;
-    font-weight: 700px;
+    font-weight: 700;
 }
 .paragraph-1{
     text-align: center;
