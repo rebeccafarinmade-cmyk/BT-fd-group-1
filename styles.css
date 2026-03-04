@@ -172,6 +172,12 @@ body{
     margin-top: 80px;
     padding: 20px 50px;
 }
+.highlight-1:hover, .highlight-1:active{
+  background-color: purple;
+}
+.highlight-1:link, .highlight-1:visited{
+  color: plum;
+}
 .active{
   background-color: green;
   position: absolute;
