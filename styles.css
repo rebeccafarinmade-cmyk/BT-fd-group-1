@@ -143,6 +143,7 @@ body{
   padding: 5px 5px;
   margin: 10px 2px 20px 90px;
   font-size: 20px;
+  border-radius: 10px;
 }
 .highlight{
   display: flex;
