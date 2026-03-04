@@ -155,7 +155,7 @@ body{
     margin-left: 20px;
     margin-bottom: 90px;
     margin-top: 80px;
-    padding: 20px 50px;
+    padding: 20px 80px;
 }
 .highlight-2{
     border: 2px solid orangered;
@@ -170,7 +170,6 @@ body{
 .active{
   background-color: green;
   position: absolute;
-  right: 3px;
 }
 .planning{
   background-color: orange;
