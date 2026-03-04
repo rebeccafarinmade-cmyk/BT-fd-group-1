@@ -79,6 +79,7 @@ body{
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
+    padding: 20px 40px;
 }
 input{
     max-width: 350px;
