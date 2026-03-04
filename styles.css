@@ -117,7 +117,6 @@ body{
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
-  margin-top: 50px;
 }
 .more{
     background-color: white;
@@ -156,7 +155,7 @@ body{
     font-size: 20px;
     max-width: 200px;
     margin-left: 20px;
-    margin-bottom: 90px;
+    margin-bottom: 125px;
     margin-top: 80px;
     padding: 20px 60px;
 }
@@ -165,7 +164,7 @@ body{
     border-radius: 50px;
     font-size: 20px;
     max-width: 200px;
-    margin-bottom: 90px;
+    margin-bottom: 125px;
     margin-left: 20px;
     margin-top: 80px;
     padding: 20px 50px;
