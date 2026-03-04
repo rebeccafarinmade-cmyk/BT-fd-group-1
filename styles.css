@@ -95,6 +95,7 @@ body{
 .heading{
   text-align: center;
     padding: 80px 40px 30px 50px;
+    margin-top: 80px;
 }
 .heading-1{
     text-align: center;
@@ -104,6 +105,7 @@ body{
 .paragraph-1{
     text-align: center;
     padding: 20px 50px 10px 50px;
+    margin-bottom: 80px;
 }
 .heading-2{
   padding-top: 300px;
