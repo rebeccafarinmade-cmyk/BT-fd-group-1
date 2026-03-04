@@ -116,11 +116,12 @@ body{
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
+  position: relative;
 }
 .more{
     background-color: white;
     color: black;
-    max-width: 800px;
+    max-width: 900px;
     padding-left: 40px;
     padding-right: 40px;
     margin-bottom: 200px;
@@ -141,8 +142,7 @@ body{
 .btn{
   padding: 10px 10px;
   font-size: 20px;
-  margin-top: 15px;
-  margin-left: 80px;
+  position: absolute;
 }
 .highlight{
   display: flex;
