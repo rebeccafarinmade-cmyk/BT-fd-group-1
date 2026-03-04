@@ -138,6 +138,10 @@ body{
   margin-bottom: 30px;
 }
 /* COMPONENT */
+.btn{
+  padding: 10px 10px;
+  font-size: 20px;
+}
 .highlight{
   display: flex;
   flex-wrap: wrap;
@@ -162,4 +166,13 @@ body{
     margin-left: 20px;
     margin-top: 80px;
     padding: 20px 50px;
+}
+.actice{
+  background-color: green;
+}
+.planning{
+  background-color: orange;
+}
+.passed{
+  background-color: red;
 }
