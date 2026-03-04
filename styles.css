@@ -140,6 +140,7 @@ body{
 /* COMPONENT */
 .btn{
   padding: 5px 5px;
+  margin-left: 50px;
   font-size: 20px;
 }
 .highlight{
@@ -155,7 +156,7 @@ body{
     margin-left: 20px;
     margin-bottom: 90px;
     margin-top: 80px;
-    padding: 20px 80px;
+    padding: 20px 60px;
 }
 .highlight-2{
     border: 2px solid orangered;
