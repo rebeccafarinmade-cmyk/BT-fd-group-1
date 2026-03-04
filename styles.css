@@ -105,7 +105,6 @@ body{
 .paragraph-1{
     text-align: center;
     padding: 20px 50px 10px 50px;
-    margin-bottom: 80px;
 }
 .heading-2{
   padding-top: 300px;
@@ -150,7 +149,7 @@ body{
     font-size: 20px;
     max-width: 200px;
     margin-left: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 90px;
     margin-top: 80px;
     padding: 20px 50px;
 }
