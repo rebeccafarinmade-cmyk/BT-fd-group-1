@@ -92,6 +92,7 @@ body{
         border: 2px solid orangered;
         border-radius: 50px;
         margin-top: 25px;
+        padding-left: 5px 10px;
 }
 .heading{
   text-align: center;
