@@ -110,13 +110,13 @@ body{
   padding-top: 300px;
   text-align: center;
   padding-bottom: 30px;
+  color: orangered;
 }
 .events{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
-  position: relative;
 }
 .more{
     background-color: white;
