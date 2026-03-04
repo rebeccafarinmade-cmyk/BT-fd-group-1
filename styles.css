@@ -170,8 +170,7 @@ body{
 .active{
   background-color: green;
   position: absolute;
-  bottom: 15px;
-  right: 15px;
+  right: 10px;
 }
 .planning{
   background-color: orange;
