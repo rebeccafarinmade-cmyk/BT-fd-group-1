@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Chelo Event Management System</title>
+</head>
+<body>
+    <!-- NAVIGATION -->
+     <nav class="navi">
+      <a href="">Home</a>
+      <a href="">Events</a>
+      <a href="">Contacts</a>
+     </nav>
+
+     <div class="container">
+        <header>    
+            <!-- HERO SECTION -->
+            <h1 class="heading-1">Event Management Dashboard</h1>
+            <p class="paragraph-1">Manage your events with ease!</p>
+        </header>
+        <main>
+            <!-- FEATURES SECTION -->
+             <div class="form">
+              <form action="" method="post">
+                <h2 class="features-heading">Create New Event</h2>
+                <div class="form-input">
+                  <label for="name">Event Name</label>
+                  <input id="name" type="text" name="event-name" placeholder="Event Name">
+                  <label for="date">Date</label>
+                  <input id="date" type="date" name="event-date" placeholder="🗓️ may 10, 2026">
+                  <label for="location">location</label>
+                  <input id="location" type="text" name="event-location" placeholder="Location">
+                  <label for="description">Description</label>
+                  <input id="description" type="text" name="event-description">
+                  <button type="submit" class="btn btn-primary">+ Add Event</button>
+                </div>
+              </form>
+             </div>
+             <!-- CTA SECTION -->
+              <h2 class="cta-heading">Upcoming Events</h2>
+              <div class="saved-events">
+                <h3>Marketing Workshop</h3>
+                <p class="cta-paragraph-1">🗓️ July 15, 2026</p>
+                <p class="cta-paragraph-2"><img src="images/icons8-location.gif" alt="location"> Lagos State, Nigeria</p>
+                <select name="event-status" id="status">
+                  <option class="green" value="Active">Active</option>
+                  <option class="peru" value="Planning">Planning</option>
+                </select>
+                <div>
+                  <button class="btn btn-secondary" onclick="editEvent(0)">Edit<button>
+                  <button class="btn btn-secondary" onclick="deleteEvent(0)">Delete</button>
+                </div>
+              </div>
+              <button class="btn btn-primary" id="view-all-btn">View all Events></button>
+        </main>
+        <footer>
+
+        </footer>
+     </div>
+</body>
+</html>

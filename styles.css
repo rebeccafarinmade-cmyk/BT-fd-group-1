@@ -1,0 +1,163 @@
+/*
+
+------------TYPOGRAPHY------------
+
+FONT SIZES
+12px / 16px / 20px / 24px / 32px / 40px / 48px / 62px
+
+FONT WEIGHT
+400 / 700
+
+LINE HEIGHT
+1.2 / 1.5
+
+LETTER SPACING
+0 / -2PX
+
+FONT FAMILY
+ROBOTO
+*/
+
+/*GlobaL Styles*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: ROBOTO;
+    box-sizing: content-box;
+    max-width: 1600px;
+}
+h1, h2, h3, h4, h5{
+line-height: 1.2;
+letter-spacing: -2px;
+}
+h1{
+    font-size: 78px;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 40px;
+}
+h4{
+    font-size: 32px;
+}
+p{
+    font-size: 24px;
+}
+a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+ul{
+    font-size: 16px;
+    list-style: none;
+}
+body{
+    background-color: black;
+    width: 100%;
+    max-width: 1600px;
+    color: white;
+}
+.navi{
+        margin-top: 40px;
+        margin-bottom: 100px;
+        display: flex;
+        flex: flex-wrap;
+        justify-content: space-between;
+}
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+.home{
+  background-color: orangered;
+  padding: 15px 5px;
+}
+.emoji{
+  font-size: 30px;
+}
+.name{
+        font-size: 40px;
+        margin-left: 50px;
+}
+.nam{
+        font-size: 48px;
+        color: orangered;
+        font-weight: 900;
+        padding-right: 30px;
+}
+.search-bar{
+        border: 2px solid black;
+        border-radius: 50px;
+}
+.heading{
+  text-align: center;
+    padding: 80px 40px 30px 50px;
+}
+.heading-1{
+    text-align: center;
+    padding: 10px 10px 50px 50px;
+    font-weight: 700px;
+}
+.paragraph-1{
+    text-align: center;
+    padding: 20px 50px 10px 50px;
+}
+.heading-2{
+  padding-top: 300px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.events{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.more{
+    background-color: white;
+    color: black;
+    max-width: 300px;
+    padding-left: 40px;
+    margin-bottom: 200px;
+    margin: 60px 30px;
+}
+.foot{
+  text-align: center;
+  padding-top: 250px;
+}
+.foot a{
+  padding-right: 10px;
+  margin-top: 20px;
+}
+.paragraph-2{
+  margin-bottom: 30px;
+}
+/* COMPONENT */
+.highlight{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.highlight-1{
+    background-color: orangered;
+    border-radius: 50px;
+    font-size: 20px;
+    max-width: 200px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 80px;
+    padding: 20px 50px;
+}
+.highlight-2{
+    border: 2px solid orangered;
+    border-radius: 50px;
+    font-size: 20px;
+    max-width: 200px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-top: 80px;
+    padding: 20px 50px;
+}
