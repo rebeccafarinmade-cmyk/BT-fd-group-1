@@ -177,6 +177,7 @@ body{
 }
 .media img{
   max-width: 60px;
+  background-color: black;
 }
 .media li{
   margin-bottom: 10px;
