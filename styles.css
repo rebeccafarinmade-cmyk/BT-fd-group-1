@@ -24,8 +24,7 @@ ROBOTO
     padding: 0;
     margin: 0;
     font-family: ROBOTO;
-    box-sizing: content-box;
-    max-width: 1600px;
+    box-sizing: border-box;
 }
 h1, h2, h3, h4, h5{
 line-height: 1.2;
@@ -58,20 +57,19 @@ ul{
 }
 body{
     background-color: black;
-    width: 100%;
-    max-width: 1600px;
     color: white;
 }
-
 /*NAVIGATION*/ 
 header{
   background-color:rgb(80, 3, 3);
+  padding-bottom: 10px
 }
 
 .navi{
   padding-top: 40px;
+  padding-bottom: 250px;
   display: flex;
-  flex: flex-wrap;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .nav-links {
@@ -94,11 +92,10 @@ header{
 }
 
 /*HERO SECTION*/
-
 .heading{
   text-align: center;
   padding: 80px 40px 30px 50px;
-  margin-top: 40%;
+  margin-top: 120px;
 }
 
 .heading-1{
@@ -130,6 +127,10 @@ header{
 }
 
 /*FEATURES SECTION*/
+
+main{
+  margin-top: 225px;
+}
 
 .heading-2{
   text-align: center;
@@ -224,7 +225,6 @@ header{
     font-size: 20px;
     max-width: 200px;
     margin-left: 20px;
-    margin-bottom: 225px;
     margin-top: 80px;
     padding: 20px 60px;
 }
@@ -233,7 +233,6 @@ header{
     border-radius: 50px;
     font-size: 20px;
     max-width: 200px;
-    margin-bottom: 225px;
     margin-left: 20px;
     margin-top: 80px;
     padding: 20px 50px;
