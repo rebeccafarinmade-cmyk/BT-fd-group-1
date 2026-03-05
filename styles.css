@@ -133,6 +133,30 @@ body{
 }
 
 /*CTA SECTION*/
+.cta{
+  background: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+.cta h2{
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.cta p{
+  margin-bottom: 20px;
+}
+.cta-btn{
+  background: white;
+  color: #4CAF50;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  }
+.cta-btn:hover{
+  background: #f4f4f4;
+}
 
 
 /*FOOTER*/
