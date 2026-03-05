@@ -35,10 +35,10 @@ h1{
     font-size: 78px;
 }
 h2{
-    font-size: 48px;
+    font-size: 50px;
 }
 h3{
-    font-size: 40px;
+    font-size: 45px;
 }
 h4{
     font-size: 32px;
@@ -64,13 +64,15 @@ body{
 }
 
 /*NAVIGATION*/ 
+header{
+  background-color:rgb(80, 3, 3);
+}
 
 .navi{
-        margin-top: 40px;
-        margin-bottom: 100px;
-        display: flex;
-        flex: flex-wrap;
-        justify-content: space-between;
+  padding-top: 40px;
+  display: flex;
+  flex: flex-wrap;
+  justify-content: space-between;
 }
 .nav-links {
   display: flex;
@@ -81,122 +83,141 @@ body{
   padding: 15px 5px;
 }
 .name{
-        font-size: 40px;
-        margin-left: 50px;
+  font-size: 40px;
+  margin-left: 50px;
 }
 .nam{
-        font-size: 48px;
-        color: orangered;
-        font-weight: 900;
-        padding-right: 30px;
+  font-size: 48px;
+  color: orangered;
+  font-weight: 900;
+  padding-right: 30px;
 }
 
 /*HERO SECTION*/
 
 .heading{
   text-align: center;
-    padding: 80px 40px 30px 50px;
-    margin-top: 40%;
+  padding: 80px 40px 30px 50px;
+  margin-top: 40%;
 }
+
 .heading-1{
-    text-align: center;
-    padding: 10px 10px 50px 50px;
-    font-weight: 700;
+  text-align: center;
+  padding: 10px 10px 50px 50px;
+  font-weight: 700;
 }
+
 .paragraph-1{
-    text-align: center;
-    padding: 20px 50px 10px 50px;
+  text-align: center;
+  padding: 20px 50px 10px 50px;
+}
+
+/* header animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.navi, .name, .nam, .nav-links, .heading, .heading-1, .paragraph-1, .highlight {
+  opacity: 0;
+  animation: fadeInUp 1s ease forwards;
 }
 
 /*FEATURES SECTION*/
 
 .heading-2{
-  padding-top: 300px;
   text-align: center;
-  padding-bottom: 30px;
-  color: #4CAF50;
+  padding-bottom:3rem;
+  color: orangered;
 }
 .events{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
+  margin-bottom: 10rem;
 }
 .more{
-    background-color: white;
-    color: black;
-    max-width: 800px;
-    padding: 40px 20px 60px 20px;
-    margin-bottom: 200px;
-    margin: 60px 30px;
-    position: relative;
+  background-color: white;
+  color: black;
+  padding: 40px 20px 60px 20px;
+  margin-bottom: 200px;
+  position: relative;
 }
 
 /*CTA SECTION*/
 .cta{
-  background: #4CAF50;
+  background: rgb(80, 3, 3);
   color: white;
   text-align: center;
-  padding: 60px 20px;
-  margin-top: 200px;
-  margin-bottom: 100px;
+  padding: 5rem;
 }
+
 .cta h2{
-  font-size: 2rem;
-  margin-bottom: 10px;
+  font-size: 4rem;
+  padding-bottom: 20px;
 }
+
 .cta p{
-  margin-bottom: 20px;
+  padding-bottom: 5rem;
 }
+
 .cta-btn{
-  background: white;
-  color: #4CAF50;
-  padding: 12px 25px;
+  background: orangered;
+  color: black;
+  padding: 20px;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 30px;
   font-weight: bold;
   }
+  
 .cta-btn:hover{
-  background: #f4f4f4;
+  background: rgb(120,0,120);
 }
-
 
 /*FOOTER*/
-
 .foot{
-  text-align: center;
-  padding-top: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding-top: 2rem;
 }
-.foot a{
-  padding-right: 10px;
-  margin-top: 20px;
-  margin-right: 15px;
-}
-.paragraph-2{
-  margin-bottom: 30px;
-}
+
 .media img{
-  max-width: 60px;
+  max-width: 40px;
+  padding-right: 10px;
 }
-.media li{
+
+.media{
   margin-bottom: 10px;
+   
 }
 
 /* COMPONENT */
 .link:hover, .link:active{
   color: purple;
 }
+
 .btn{
   padding: 5px 5px;
   margin: 10px 2px 20px 90px;
-  font-size: 20px;
   border-radius: 10px;
+
 }
 .highlight{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 18rem;
 }
+
 .highlight-1{
     background-color: orangered;
     border-radius: 50px;
@@ -217,6 +238,7 @@ body{
     margin-top: 80px;
     padding: 20px 50px;
 }
+
 .highlight-1:hover, .highlight-1:active{
   background-color: purple;
 }
@@ -235,11 +257,13 @@ body{
   color: white;
   position: absolute;
 }
+
 .planning{
   background-color: orange;
   color: white;
   position: absolute
 }
+
 .passed{
   background-color: red;
   color: white;
