@@ -178,6 +178,9 @@ body{
 .media{
   max-width: 60px;
 }
+.media li{
+  margin-bottom: 10px;
+}
 
 /* COMPONENT */
 .link:hover, .link:active{
