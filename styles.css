@@ -175,6 +175,10 @@ body{
 .paragraph-2{
   margin-bottom: 30px;
 }
+.media{
+  max-width: 60px;
+}
+
 /* COMPONENT */
 .link:hover, .link:active{
   color: purple;
