@@ -114,7 +114,7 @@ body{
   padding-top: 300px;
   text-align: center;
   padding-bottom: 30px;
-  color: orangered;
+  color: #4CAF50;
 }
 .events{
   display: flex;
@@ -138,6 +138,7 @@ body{
   color: white;
   text-align: center;
   padding: 60px 20px;
+  margin-top: 30px;
 }
 .cta h2{
   font-size: 2rem;
