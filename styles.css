@@ -139,6 +139,7 @@ body{
   text-align: center;
   padding: 60px 20px;
   margin-top: 200px;
+  margin-bottom: 100px;
 }
 .cta h2{
   font-size: 2rem;
@@ -224,13 +225,16 @@ body{
 
 .active{
   background-color: green;
+  color: white;
   position: absolute;
 }
 .planning{
   background-color: orange;
+  color: white;
   position: absolute
 }
 .passed{
   background-color: red;
+  color: white;
   position: absolute;
 }
